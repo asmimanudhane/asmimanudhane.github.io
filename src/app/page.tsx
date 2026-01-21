@@ -32,7 +32,7 @@ export default function Home() {
           <div className="col-span-12 md:col-span-7 md:col-start-6 space-y-12 white-space: pre-line;" >
             {/* About section is typically first */}
             {aboutMe.description && (
-              <section id="about">
+              <section id="about" className="scroll-mt-32">
                 <p
                   className="font-serif text-sm leading-relaxed text-zinc-700 [&_a]:underline [&_a]:text-zinc-900 [&_a:hover]:text-zinc-600 white-space: pre-line;"
                   dangerouslySetInnerHTML={{ __html: aboutMe.description.replace(/\n/g, '<br>') }}
