@@ -10,21 +10,28 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
-    date: "Summer 2023",
+    date: "October 2024 - September 2025",
     title: "Research Intern",
-    company: "DeepMind",
+    company: "Climate and Sustainability Initiative",
     description:
-      "Developed novel algorithms for causal structure learning in reinforcement learning settings",
-    advisor: "Peter Wang",
-    companyUrl: "https://deepmind.com",
+      "Developed mixed-methods research and methodology on climate finance to fragile African states, identifying and analysing commitment and disbursement patterns against fragility indicators.", 
+
+    advisor: "Imad Ul Riyaz",
   },
   {
-    date: "Summer 2022",
+    date: "July 2024 - October 2024",
     title: "Research Intern",
-    company: "Google Research",
+    company: "Commonwealth Human Rights Initiative",
     description:
-      "Worked on improving robustness of large language models to distribution shifts",
-    manager: "Elise Brown",
+      "Delivered policy research on India’s Right to Information regime by mapping disclosure gaps in gender, environmental, and climate governance across the Ministries of Women and Child Development, Tribal Affairs, and Environment & Forests, and contributing to legislative review of draft RTI bills.",
     companyUrl: "https://google.com",
   },
+  {
+    date: "July 2024 - October 2024",
+    title: "Research Intern",
+    company: "BAME Awarding Gap Project",
+    description:
+      "Conducted research and data analysis to identify and address disparities in educational attainments among BAME students, and devised evidence-based strategies like diversity and inclusion training for faculty, mentorship initiatives and established dedicated support centres for BAME students to access academic resources, counselling, and career services. ",
+    advisor: "Dr Antonio Sennis",
+  }
 ];

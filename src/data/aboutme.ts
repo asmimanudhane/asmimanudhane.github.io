@@ -18,22 +18,23 @@ export interface AboutMe {
 }
 
 export const aboutMe: AboutMe = {
-  name: "Jane R. Smith",
-  title: "Ph.D. Candidate",
-  institution: "Stanford University",
+  name: "Asmi Manudhane",
+  title: "MPhil Development Studies Candidate",
+  institution: "University of Cambridge",
   // Note that links work in the description
   description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
+    `I'm a MPhil candidate at Cambridge, expected to graduate in June 2026, currently researching the interaction of India's climate policy and economic development infrastructure.
+
+I am excited to pursue a career in climate policy development. I am an impact-driven individual for whom social change is central. I want to use my knowledge in policy analysis, my sensitivity to subalternities of gender and caste, and my enthusiasm to actualise meaningful action to contribute to the climate-action space.
+
+Outside of academics, I'm happiest on or near the water—whether swimming, surfing, or rowing. At Cambridge, Im proud to be part of my college rowing team as well as the Cambridge Boxing Team. I love connecting with new people, finding joy in small everyday moments, and reminding myself to move through life at my own pace.`,
+
+  email: " am3421@cam.ac.uk, asmi2910manudhane@gmail.com ",
   imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
-  blogUrl: "https://",
-  cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
+    "/images/Asmi Image.jpg",
+  
+  linkedinUsername: "asmi-manudhane",
+  institutionUrl: "https://www.cambridge.org/",
   // altName: "",
   // secretDescription: "I like dogs.",
 };

@@ -29,7 +29,11 @@ export const metadata: Metadata = {
   title: customMetadata.title || aboutMe.name,
   description: customMetadata.description || aboutMe.description,
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
   },
 };
 
@@ -44,7 +48,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${notoSerif.variable} ${ptSerif.variable} antialiased`}
       >
         <main className="">{children}</main>
-        <footer className="border-t border-neutral-200 dark:border-neutral-800 bg-[#FFFCF8]">
+        <footer className="border-t border-neutral-200 dark:border-neutral-800 bg-[#E8DCC4]">
           <div className="flex flex-row mx-auto max-w-7xl px-6 py-12 md:flex md:items-start md:justify-between ">
             <div className="mb-4 text-sm text-neutral-600 dark:text-neutral-400">
               <p>
@@ -65,6 +69,8 @@ export default function RootLayout({
                 >
                   research-website-template
                 </a>
+                {" "}
+                <span className="text-xs text-neutral-400">courtesy @tovacinni</span>
               </p>
             </div>
           </div>

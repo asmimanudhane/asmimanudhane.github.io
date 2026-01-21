@@ -33,7 +33,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
           </div>
         </div>
       )}
-      <div className="w-2/3 md:w-full">
+      <div className="w-2/3 md:w-full white-space: pre-line;">
         <h1 className="font-serif text-3xl font-light tracking-wide mb-3">
           {aboutMe.name}
         </h1>
@@ -48,7 +48,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
           {aboutMe.institutionUrl ? (
             <a
               href={aboutMe.institutionUrl}
-              className="hover:text-zinc-900 transition-colors duration-300"
+              className="underline text-zinc-700 hover:text-zinc-900 transition-colors duration-300"
               target="_blank"
               rel="noopener noreferrer"
             >
