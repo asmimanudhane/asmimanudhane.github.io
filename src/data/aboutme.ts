@@ -23,11 +23,11 @@ export const aboutMe: AboutMe = {
   institution: "University of Cambridge",
   // Note that links work in the description
   description:
-    `I'm a MPhil candidate at Cambridge, expected to graduate in June 2026, currently researching the interaction of India's climate policy and economic development infrastructure.
+    `I'm an MPhil candidate at Cambridge, expected to graduate in June 2026, currently researching how India's climate policy interacts with its economic development infrastructure
 
 I am excited to pursue a career in climate policy development. I am an impact-driven individual for whom social change is central. I want to use my knowledge in policy analysis, my sensitivity to subalternities of gender and caste, and my enthusiasm to actualise meaningful action to contribute to the climate-action space.
 
-Outside of academics, I'm happiest on or near the water—whether swimming, surfing, or rowing. At Cambridge, Im proud to be part of my college rowing team as well as the Cambridge Boxing Team. I love connecting with new people, finding joy in small everyday moments, and reminding myself to move through life at my own pace.`,
+Outside of academics, I'm happiest on or near the water—whether swimming, surfing, or rowing. At Cambridge, I'm proud to be part of my college rowing team as well as the Cambridge Boxing Team.`,
 
   email: " am3421@cam.ac.uk, asmi2910manudhane@gmail.com ",
   imageUrl:
