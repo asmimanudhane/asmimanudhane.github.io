@@ -27,7 +27,7 @@ export const experienceData: Experience[] = [
     companyUrl: "https://google.com",
   },
   {
-    date: "July 2024 - October 2024",
+    date: "July 2023 - October 2024",
     title: "Research Intern",
     company: "BAME Awarding Gap Project",
     description:
